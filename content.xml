@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="../../content.xsl"?>
+<content id="UTPlayerLogos" name="Player Logos" description="Addon for the Faction Logos Extension to give the Player a choice between 15 Logos for their Ships" author="UniTrader" date="2014-08-27" version="90" save="false" uninstaller="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/content.xsd">
+  <dependency id="UTFactionLogos" url="http://forum.egosoft.com/viewtopic.php?t=370297" />
+  <text language="44" name="Player Logos" description="Adon for the Faction Logos Extension to give the Player a choice between 15 Logos for their Ships" author="UniTrader" >
+    <info site="forum.egosoft.com" url="http://forum.egosoft.com/viewtopic.php?t=370297" />
+  </text>
+  <text language="49" name="Spielerlogos" description="Addon für die Fraktionslogo-Erweiterung um dem Spieler die wahl zwischen 15 Logos für seine Schiffe zu geben" author="UniTrader">
+    <info site="forum.egosoft.com" url="http://forum.egosoft.com/viewtopic.php?t=370271" />
+  </text>
+</content>

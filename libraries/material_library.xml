@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<materiallibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://utnas/~unitrader/XRebirthxsds/material_library.xsd">
+  <collection name="logos">
+    <material name="faction_player_1" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 1" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 1" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_2" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 2" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 2" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_3" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 3" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 3" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_4" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 4" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 4" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_5" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 5" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 5" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_6" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 6" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 6" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_7" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 7" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 7" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_8" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 8" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 8" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_9" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 9" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 9" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_10" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 10" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 10" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_11" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 11" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 11" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_12" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 12" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 12" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_13" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 13" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 13" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_14" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 14" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 14" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+    <material name="faction_player_15" shader="shaderfx\high\XU_surface_test.fx" blendmode="alpha8" preview="none">
+      <properties>
+        <property type="BitMap" name="diffuse_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 15" />
+        <property type="BitMap" name="color_glow_map" value="Extensions\UTPLayerLogos\Player Logos\player logo 15" />
+        <property type="Float" name="color_glowStr" value="0.15" />
+      </properties>
+    </material>
+  </collection>
+</materiallibrary>

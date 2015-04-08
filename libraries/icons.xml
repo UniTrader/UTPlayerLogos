@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <replace sel='//icon[@name="faction_player"]/@texture' >Extensions\UTPlayerLogos\Player Logos\GUI Logo</replace>
+</diff>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language id="44">
+
+<!-- Naming Schemne: 5554 -> Hexadecimal Ascii for UT; 
+10 for Player choices;
+1 for Player Logo Extension
+
+t ids:
+hundreds: 100 ship; 200 station; 300 global/personal ; 400 Logo Names
+tens&ones: menu Entry / Logo Choice
+-->
+
+<page id="5554101" title="Player Logo Choices" descr="Player Logo Choices" voice="no">
+ <t id="100">Change Ship Logo Settings</t>
+ <t id="111">Change Ship Logo \(Group 1\)</t>
+ <t id="112">Change Ship Logo \(Group 2\)</t>
+ <t id="113">Change Ship Logo \(Group 3\)</t>
+ <t id="114">Use Commander/Global Logo</t>
+ <t id="210">Change Station Logo Settings</t>
+ <t id="211">Change Station Logo \(Group 1\)</t>
+ <t id="212">Change Station Logo \(Group 2\)</t>
+ <t id="213">Change Station Logo \(Group 3\)</t>
+ <t id="214">Use Commander/Global Logo</t>
+ <t id="300">Change Player Squad/Default Logo Settings</t>
+ <t id="311">Select Default Logo \(Group 1\)</t>
+ <t id="312">Select Default Logo \(Group 2\)</t>
+ <t id="313">Select Default Logo \(Group 3\)</t>
+ <t id="314">Select Personal Logo \(Group 1\)</t>
+ <t id="315">Select Personal Logo \(Group 2\)</t>
+ <t id="316">Select Personal Logo \(Group 3\)</t>
+ <t id="400">Remove Logo</t>
+ <t id="401">Logo 1 \(Madoka\)</t>
+ <t id="402">Logo 2 \(Mami\)</t>
+ <t id="403">Logo 3 \(Kyoko\)</t>
+ <t id="404">Logo 4 \(Sayaka\)</t>
+ <t id="405">Logo 5 \(Homura\)</t>
+ <t id="406">Logo 6 \(Skunk\)</t>
+ <t id="407">Logo 7 \(Pancake\)</t>
+ <t id="408">Logo 8 \(X\)</t>
+ <t id="409">Logo 9 \(Bentenmaru\)</t>
+ <t id="410">Logo 10 \( :\) \)</t>
+ <t id="411">Logo 11 \(Skunk\)</t>
+ <t id="412">Logo 12 \(Skunk\)</t>
+ <t id="413">Logo 13 \(Skunks\)</t>
+ <t id="414">Logo 14 \(all the\)</t>
+ <t id="415">Logo 15 \(way down\)</t>
+</page>
+</language>
