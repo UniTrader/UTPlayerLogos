@@ -11,7 +11,7 @@
   <add sel='//cue[@name="SectionHandler"]/actions/do_else' pos="before" >
             <!-- global Logo Managment (like default settings) -->
             <do_elseif value="event.param == 'cEngineer_changedefaultlogo'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,311}" section="cEngineer_changedefaultlogo_Group1" position="top_left" comment="Logo Group 1" />
               <add_player_choice text="{5554101,312}" section="cEngineer_changedefaultlogo_Group2" position="left" comment="Logo Group 2"/>
               <add_player_choice text="{5554101,313}" section="cEngineer_changedefaultlogo_Group3" position="bottom_left" comment="Logo Group 3"/>
@@ -22,7 +22,7 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changedefaultlogo_Group1'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,401}" section="cEngineer_changedefaultlogo_Logo1" position="top_left" comment="Player Logo 1" />
               <add_player_choice text="{5554101,402}" section="cEngineer_changedefaultlogo_Logo2" position="left" comment="Player Logo 2"/>
               <add_player_choice text="{5554101,403}" section="cEngineer_changedefaultlogo_Logo3" position="bottom_left" comment="Player Logo 3"/>
@@ -31,7 +31,7 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changedefaultlogo_Group2'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,406}" section="cEngineer_changedefaultlogo_Logo6" position="top_left" comment="Player Logo 6" />
               <add_player_choice text="{5554101,407}" section="cEngineer_changedefaultlogo_Logo7" position="left" comment="Player Logo 7"/>
               <add_player_choice text="{5554101,408}" section="cEngineer_changedefaultlogo_Logo8" position="bottom_left" comment="Player Logo 8"/>
@@ -40,7 +40,7 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changedefaultlogo_Group3'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,411}" section="cEngineer_changedefaultlogo_Logo11" position="top_left" comment="Player Logo 11" />
               <add_player_choice text="{5554101,412}" section="cEngineer_changedefaultlogo_Logo12" position="left" comment="Player Logo 12"/>
               <add_player_choice text="{5554101,413}" section="cEngineer_changedefaultlogo_Logo13" position="bottom_left" comment="Player Logo 13"/>
@@ -96,7 +96,7 @@
             
             <!-- Local Settings for each Ship -->
             <do_elseif value="event.param == 'cEngineer_changelogo_ship'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,111}" section="cEngineer_changelogo_Group1" position="top_left" comment="Logo Group 1" />
               <add_player_choice text="{5554101,112}" section="cEngineer_changelogo_Group2" position="left" comment="Logo Group 2"/>
               <add_player_choice text="{5554101,113}" section="cEngineer_changelogo_Group3" position="bottom_left" comment="Logo Group 3"/>
@@ -108,7 +108,7 @@
             </do_elseif>
             <!-- Local Settings for each Station (not used currently)-->
             <do_elseif value="event.param == 'cEngineer_changelogo_station'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,211}" section="cEngineer_changelogo_Group1" position="top_left" comment="Logo Group 1" />
               <add_player_choice text="{5554101,212}" section="cEngineer_changelogo_Group2" position="left" comment="Logo Group 2"/>
               <add_player_choice text="{5554101,213}" section="cEngineer_changelogo_Group3" position="bottom_left" comment="Logo Group 3"/>
@@ -121,11 +121,11 @@
             
             <!-- Apply Settings for Ship/Station -->
             <do_elseif value="event.param == 'cEngineer_changelogo_Setting1'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'default'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Group1'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,401}" section="cEngineer_changelogo_Logo1" position="top_left" comment="Player Logo 1" />
               <add_player_choice text="{5554101,402}" section="cEngineer_changelogo_Logo2" position="left" comment="Player Logo 2"/>
               <add_player_choice text="{5554101,403}" section="cEngineer_changelogo_Logo3" position="bottom_left" comment="Player Logo 3"/>
@@ -134,7 +134,7 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Group2'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,406}" section="cEngineer_changelogo_Logo6" position="top_left" comment="Player Logo 6" />
               <add_player_choice text="{5554101,407}" section="cEngineer_changelogo_Logo7" position="left" comment="Player Logo 7"/>
               <add_player_choice text="{5554101,408}" section="cEngineer_changelogo_Logo8" position="bottom_left" comment="Player Logo 8"/>
@@ -143,7 +143,7 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Group3'">
-              <add_npc_line line="1008" comment="what can i do for you?" />
+              <add_npc_line line="1008" hidechoices="false" comment="what can i do for you?" />
               <add_player_choice text="{5554101,411}" section="cEngineer_changelogo_Logo11" position="top_left" comment="Player Logo 11" />
               <add_player_choice text="{5554101,412}" section="cEngineer_changelogo_Logo12" position="left" comment="Player Logo 12"/>
               <add_player_choice text="{5554101,413}" section="cEngineer_changelogo_Logo13" position="bottom_left" comment="Player Logo 13"/>
@@ -152,67 +152,67 @@
               <add_player_choice_return text="{1002,2}" position="bottom_right" comment="Goodbye"/>
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_none'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'none'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo1'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_1'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo2'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_2'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo3'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_3'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo4'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_4'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo5'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_5'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo6'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_6'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo7'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_7'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo8'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_8'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo9'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_9'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo10'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_10'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo11'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_11'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo12'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_12'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo13'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_13'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo14'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_14'" />
             </do_elseif>
             <do_elseif value="event.param == 'cEngineer_changelogo_Logo15'">
-              <add_npc_line line="[1012,1013,1170,1171,1172].random" comment="confirmed" />
+              <add_npc_line line="[1012,1013,1170,1171,1172].random" hidechoices="false" comment="confirmed" />
               <signal_objects object="$actor" param="'Change Logos'" param2="'faction_player_15'" />
             </do_elseif>
   </add>
